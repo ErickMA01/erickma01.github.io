@@ -71,8 +71,8 @@ footer {
 }
 /* Add this style to adjust the project image */
 .project img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;
+    max-width: 400px; /* Adjust the maximum width as needed */
 }
+
