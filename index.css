@@ -1,5 +1,7 @@
 body {
-    font-family: 'Palatino', serif; /* Updated font-family */
+    font-family: 'Palatino', serif;
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the font bold */
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
