@@ -44,9 +44,9 @@ nav ul li a:hover {
 section {
     max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 0; /* Removed padding around the text */
     background-color: #fff;
-    border-radius: 8px;
+    border: none; /* Removed border around the text */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -65,6 +65,7 @@ footer {
     bottom: 0;
 }
 
+/* Updated profile image alignment */
 .profile {
     position: absolute;
     top: 20px;
@@ -90,8 +91,16 @@ footer {
     color: #333;
 }
 
+/* Adjust project images */
 .project img {
     width: 100%;
     height: auto;
     max-width: 400px; /* Adjust the maximum width as needed */
+}
+
+/* Removed padding and borders from all text elements */
+h1, h2, h3, p, pre, li {
+    padding: 0; /* Removed padding */
+    margin: 0; /* Adjusted margins */
+    border: none; /* Removed border */
 }
