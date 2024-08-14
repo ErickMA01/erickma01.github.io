@@ -5,8 +5,8 @@
 
 body {
     font-family: 'Roboto', sans-serif; /* Updated to Roboto font */
-    font-size: 18px; /* Increased font size */
-    font-weight: bold; /* Made font bold */
+    font-size: 30px; /* Increased font size */
+    font-weight: normal; /* Made font bold */
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
